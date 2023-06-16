@@ -11,6 +11,11 @@ header {
 }
 
 .logo {
+    height: 50px;
+    width: 197px;
+    left: 55px;
+    top: 2px;
+    border-radius: nullpx;
     display: flex;
     align-items: center;
 }
@@ -33,16 +38,30 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    font-family: Halant;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 25px;
 }
 
 nav ul li a {
     color: #000;
     text-decoration: none;
     padding: 10px;
-    border: 1px solid #155EEF;
-    border-radius: 5px;
+   
     padding: 5px 10px;
     text-decoration: none;
+    margin-left: 25px;
+}
+
+.active {
+    border: 1px solid #155EEF;
+    border-radius: 5px;
+    color:#155EEF;
+    ;
 }
 
 nav ul li a:hover {
@@ -57,26 +76,50 @@ nav ul li a:hover {
     margin: 20px;
     border: 2px solid #155EEF;
     border-radius: 8px;
+    background-color: #F9FBFF;
+
 }
 
 .hero-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .hero-text {
     flex-basis: 50%;
 }
 
+.hero-paragraph {
+    font-family: Halant;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+
 .hero-text h2 {
+    color: #155EEF;
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: Halant;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .hero-text p {
-    font-size: 16px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -91,6 +134,12 @@ nav ul li a:hover {
 .hero-image img {
     max-width: 100%;
     height: auto;
+    height: 486px;
+    width: 514px;
+    left: 766px;
+    top: 64px;
+    border-radius: 0px;
+
 }
 
 
@@ -114,6 +163,12 @@ nav ul li a:hover {
 .about-me-image img {
     max-width: 100%;
     height: auto;
+    height: 384px;
+    width: 535px;
+    left: 8px;
+    top: 8px;
+    border-radius: 0px;
+
 }
 
 .about-me-text {
@@ -123,12 +178,98 @@ nav ul li a:hover {
 .about-me-text h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    height: 48px;
+    width: 196px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Halant;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
 }
 
 .about-me-text p {
     font-size: 16px;
     margin-bottom: 20px;
+    height: 216px;
+    width: 604px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: justified;
+
+
 }
+
+
+/* Projects styles*/
+
+.projects {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 20px;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    position: relative;
+
+
+}
+
+.projects-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.projects-text {
+    flex-basis: 50%;
+    background-color: #F9FBFF;
+    width: 693px;
+    height: 606px;
+    top: 0;
+    left: 32px;
+    padding: 32px, 24px;
+    margin: 12px;
+    gap: 24px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    position: absolute;
+}
+
+
+
+
+
+.projects-image img {
+    max-width: 100%;
+    height: auto;
+    height: 539px;
+    width: 710px;
+    left: 570px;
+    top: 196px;
+    border-radius: 0px;
+    margin-top: 75px;
+    margin-right: 55px;
+}
+
 
 
 /*footer styles*/
@@ -148,6 +289,10 @@ footer {
 .logo {
     display: flex;
     align-items: center;
+    height: 50px;
+    width: 205px;
+    left: 55px;
+    top: 2px;
 }
 
 .logo img {
@@ -185,7 +330,11 @@ footer {
 }
 
 .social-links ul li a img {
-    height: 30px;
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    top: 2px;
+    border-radius: 0px;
 }
 
 .social-links ul li a img:hover {
@@ -194,5 +343,12 @@ footer {
 
 .copyright {
     text-align: right;
-    color: #000;
+    color: #041330;
+    width: 305px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+
 }
