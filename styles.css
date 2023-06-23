@@ -362,125 +362,127 @@ footer {
 /* Media queries for mobile devices */
 @media only screen and (max-width: 600px) {
 
-    /* Adjustments for smaller screens */
-
     /* Header */
     .logo {
-        justify-content: center;
-        margin-bottom: 20px;
+      justify-content: center;
+      margin-bottom: 20px;
     }
-
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
     nav ul li {
-        display: none;
-        margin-bottom: 10px;
+      margin-bottom: 10px;
     }
-
-    .menu-btn {
-        display: inline;
-    }
-
+  
     /* Hero section */
     .hero-content {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .hero-text {
-        text-align: center;
-        margin-bottom: 20px;
-        font-family: Manrope;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        text-align: center;
-
+      text-align: center;
+      margin-bottom: 20px;
     }
-
+  
+    .hero-text p {
+      font-size: 16px;
+    }
+  
+    .hero-text h2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
     .hero-image img {
-
-        width: 100%;
-        height: auto;
-
+      width: 100%;
+      height: auto;
     }
-
-    .button {
-        width: 366px;
-        height: 44px;
-        padding: 10px 16px 10px 16px;
-        border-radius: 8px;
-        gap: 10px;
-        font-family: Manrope;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        text-align: center;
-
-
-    }
-
+  
     /* About me section */
     .about-me-content {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .about-me-text {
-        gap: 16px;
-        width: 366px;
-        height: 168px;
-        color: #2E3A53;
-        font-family: Manrope;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        text-align: justified;
+      text-align: center;
+      margin-bottom: 20px;
     }
-
-
+  
+    .about-me-text h2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .about-me-text p {
+      font-size: 16px;
+    }
+  
     .about-me-image img {
-
-        width: 100%;
-        height: auto;
-        top: 63px;
-        left: 16px;
-        gap: 24px;
-
+      width: 100%;
+      height: auto;
     }
-
+  
     /* Projects section */
     .projects-content {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .projects-text {
-        width: 85px;
-        height: 29px;
-        font-family: Halant;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 29px;
-        letter-spacing: 0em;
-        text-align: left;
+      position: static;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 20px;
     }
-
+  
+    .projects-text ul {
+      padding-left: 20px;
+    }
+  
+    .projects-text li {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
     .projects-image img {
-        width: 100%;
-        height: auto;
+      width: 100%;
+      height: auto;
     }
-
+  
     /* Footer */
-    footer  {
-        flex-direction: column;
-        text-align: center;
+    footer {
+      flex-direction: column;
+      text-align: center;
     }
-
+  
     .social-links {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
     }
-
+  
+    .social-links ul {
+      justify-content: center;
+    }
+  
+    .social-links ul li {
+      margin-right: 10px;
+    }
+  
+    .social-links ul li:last-child {
+      margin-right: 0;
+    }
+  
+    .social-links ul li a img {
+      height: 16px;
+      width: 16px;
+    }
+  
     .copyright {
-        margin-top: 20px;
+      margin-top: 20px;
+      font-size: 16px;
     }
-
-}
+  
+  }
+  
